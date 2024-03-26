@@ -25,4 +25,14 @@ async function preencherContainer(){
 
 preencherContainer()
 
+filme = {
+    "nome":"O Segredo do Vale",
+    "sinopse":"Um drama emocionante que explora os segredos de uma pequena cidade no interior.",
+    "duracao":"02:35:00",
+    "data_lancamento":"2022-08-25",
+    "data_relancamento":null,
+    "foto_capa":"https://exemplo.com/foto_vale.jpg",
+    "valor_unitario":29.98
+}
+
 console.table(await getFilmes(1))
